@@ -1,0 +1,49 @@
+1st step 
+npm init -y
+to generate some package.json file
+
+step 2
+create an index.js file and put in some js code
+
+type 
+node src/index.js to
+to run the index.js file in node
+
+step 3
+Modified the package.json file and add into the script:
+"start": "node src/index.js",
+
+
+*************Express JS***************
+Express is a node framework server it is a light weight server
+
+To install Express:
+npm install express
+
+
+// // Requiring express.js
+// const express = require('express')
+
+// // Changing the module to object to use its inbuilt functions
+// const app = express()
+
+// // Port number to run the port
+// const PORT = 3000
+
+// // Get request to send the data to the server
+// app.get('/' , (req,res) => {
+// 	res.send('Hello guys')
+// })
+
+// // Server Setup
+// app.listen(PORT, () => {
+// 	console.log(`port running at port number : ${PORT}`)
+// }) 
+
+
+Script that allows us to to automatically restart server: 
+we don't have to restart server manually antime we made changes
+
+The script is called nodemon
+
+npm install nodemon --save-dev or npm i nodemon -D
